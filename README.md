@@ -23,23 +23,22 @@ password: admin
 login via login.php
 
 
-#### List of all the files in the system
-1. login.php <br>
+## List of all the files in the system
+### login.php
 To handle the authentication of users and admins.  <br>
 With the correct admins credential, admins will be redirected to the admin page. <br>
-Select LogOut button from admin/booking page will redirect users back to this page. <br>
-Select register button will redirect users to the register page. <br>
-2. register.php
+### register.php
 To handle the registation of users. <br>
-Select login button will redirect users to the login page. <br>
-3. booking.php
+Allow a new customer to register. <br>
+### booking.php
 To handle the taxi booking form. <br>
-4. admin.php
+Allow customers to put in a taxi booking request in Melbourne and surrounding areas. <br>
+### admin.php
 Designed for administration purpose. <br>
 To handle taxi booking requests that need to be assigned as soon as possible.  <br>
 To assign taxi for a particular booking request.  <br>
-4. showCustomer.php
+### showCustomer.php
 For debug purpose only. <br>
 Retrieved table(s) from database for convenience. <br>
-5. commands.txt
+### commands.txt
 List of MySQL commands used to create tables.
