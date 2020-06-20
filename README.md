@@ -23,9 +23,9 @@ password: admin
 login via login.php
 
 
-##### a list of all the files in the system
-1. login.php
-login.php is to handle the authentication of users and admin. 
+#### List of all the files in the system
+1. login.php <br>
+To handle the authentication of users and admin. 
 Admin password and email is listed above. With the correct "email" and password will redirect an admin to the admin page (admin.php).
 Select LogOut button from admin/booking page will redirect users back to this page.
 Select register button will redirect users to the register page.
