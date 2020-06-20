@@ -1,0 +1,13 @@
+Assessment item          Completed
+----------------------------------
+Comment adn readme file  YES
+Task 1.1                 YES
+Task 1.2                 YES
+Task 1.3                 YES
+Task 2.1                 YES
+Task 2.2                 YES
+Task 2.3                 YES
+Task 2.4                 YES
+Task 3.1                 YES
+Task 3.2                 YES
+Task 3.3                 YES

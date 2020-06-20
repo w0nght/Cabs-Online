@@ -1,0 +1,36 @@
+// MySQL commands used to create database and the two tables
+
+// Use my default database
+use s101664795_db;
+
+// Create customer table 
+CREATE TABLE customer ( 
+  email_address varchar(40) not null, 
+  customer_name varchar(30) not null, 
+  password varchar(30) not null, 
+  phone_number int not null, 
+  PRIMARY KEY (email_address)
+);
+
+// View the customer table 
+select * from customer;
+
+// Create booking table
+create table booking (
+  booking_ref int(10) not null AUTO_INCREMENT,
+  email_address varchar(40) not null,
+  passenger_name varchar(30) not null,
+  contact_num int(10) not null,
+  unit_num int(6),
+  street_num int(6) not null,
+  street_name varchar (40) not null,
+  suburb  varchar (40) not null,
+  destination varchar (40) not null,
+  pick_date DATE not null,
+  pick_time time not null,
+  book_date DATE not null,
+  book_time time not null,
+  status varchar(40) default 'unassigned',
+  primary key (booking_ref),
+  foreign key (email_address) references customer(email_address)
+);
